@@ -19,9 +19,6 @@ SET NOCOUNT ON;
 
 DECLARE
 
-	@v_uiConversationHandle	UNIQUEIDENTIFIER,
-	@v_xmlMessage				XML,
-
 	-- Error handling variables
     @v_nSysErrorNum             INTEGER,
     @v_vchCode                  uddt_output_code,

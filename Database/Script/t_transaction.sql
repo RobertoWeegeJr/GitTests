@@ -1,8 +1,9 @@
 USE [AAD]
 GO
-
+ 
 DELETE FROM t_transaction
-WHERE tran_type in ('730', '731', '732', '733')
+WHERE tran_type in ('730', 
+'731', '732', '733')
 
 MERGE t_transaction trn
 USING (
