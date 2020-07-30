@@ -1,0 +1,17 @@
+USE AAD;
+DROP TABLE t_mw_ww_view_inbound_failed_message;
+DROP TABLE t_mw_inbound_integrated_message_id;
+DROP TABLE t_mw_inbound_failed_message;
+DROP TABLE t_mw_inbound_log;
+DROP TABLE t_mw_inbound_rules;
+DROP TABLE t_mw_inbound_control;
+DROP TABLE t_mw_inbound;
+DROP TABLE t_mw_outbound_failed_message;
+DROP TABLE t_mw_outbound_response_log;
+DROP TABLE t_mw_outbound_log;
+DROP TABLE t_mw_outbound_rules;
+DROP TABLE t_mw_outbound_destination_auth;
+DROP TABLE t_mw_outbound_destination_header;
+DROP TABLE t_mw_outbound_destination;
+DROP TABLE t_mw_outbound_control;
+DROP TABLE t_mw_outbound;
